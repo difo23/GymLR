@@ -8,12 +8,9 @@ Picasso y Dagger entre otras libres y herramientas tocadas durante las clases.
 <h4>Descripcion de funcionalidades APP Futbol:</h4>
 
 La funcion del proyecto Futbol es algo simple, pero con una gran muestra de conceptos con herramientas que son muy 
-utiles en el desarrollo de aplicaciones android. El objetivo del APP es tomar los datos relacionados con los partidos 
-de futbol realizados en Espana y mostrar los marcadores correspondientes. La fuente de los datos sera la pagina web 
-<a href="http://www.marcadoresonline.com/futbol/espa%C3%B1a/primeradivision" > Marcadores.com </a> (La utilizacion de 
-estos datos es totalmente educativa y no prentende uso comercial). Para la toma de los datos y injeccion de los mismo se
-utilizan herramientas como Retrofit y Dagger. Para manejar los iconos que representan los Escudos de los equipos se 
-implementa Picasso estas imagenes necesitan ser tratadas para usarla en nuestra aplicacion.
+utiles en el desarrollo de aplicaciones android. El objetivo del APP es tomar los datos relacionados con los partidos de futbol realizados en Espana y mostrar los marcadores correspondientes. La fuente de los datos sera la pagina web <a href="http://www.marcadoresonline.com/futbol/espa%C3%B1a/primeradivision" > Marcadores.com </a> (La utilizacion de  estos datos es totalmente educativa y no prentende uso comercial). Para la toma de los datos y injeccion de los mismo se utilizan herramientas como Retrofit y Dagger. Para manejar los iconos que representan los Escudos de los equipos se implementa Picasso estas imagenes necesitan ser tratadas para usarla en nuestra aplicacion. La aplicacion original solo muestra los resultados para Espana y la liga 1. Su unica funcionalidad es mostrar estos datos en forma de una lista de marcados y la bandera del pais al que pertenecen la siguiente imagen muestra como se ve la aplicacion en el emulador Genymotion.
+
+<img src="https://github.com/difo23/GymLR/blob/master/app/src/main/res/drawable/original.png?raw=true">
 
 
 <h4>Informacion y consulta sobre MVP, la cual fue necesaria para entender el proyecto Futbol:</h4>
