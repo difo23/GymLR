@@ -1,16 +1,45 @@
 # GymLR Objetivo:
 
-EL proyecto GymLR desarrollado para Android forma un conjunto de pruebas y modificaciones realizadas en la aplicación
-original Futbol creada en el transcurso de las clases de SmartPhone tema OS Android. El objetivo de este proyecto es totalmente 
-didactico, presentando conceptos como el Model-View-Presenter (MVP), utilizacion de herramientas como son Retrofit,
-Picasso y Dagger entre otras libres y herramientas tocadas durante las clases.
+EL proyecto GymLR desarrollado para Android forma un conjunto de pruebas y modificaciones realizadas en la aplicación original Futbol creada en el transcurso de las clases de SmartPhone tema OS Android. El objetivo de este proyecto es totalmente didactico, presentando conceptos como el Model-View-Presenter (MVP), utilizacion de herramientas como son Retrofit, Picasso y Dagger entre otras libres y herramientas tocadas durante las clases.
 
 <h4>Descripcion de funcionalidades APP Futbol:</h4>
 
-La funcion del proyecto Futbol es algo simple, pero con una gran muestra de conceptos con herramientas que son muy 
-utiles en el desarrollo de aplicaciones android. El objetivo del APP es tomar los datos relacionados con los partidos de futbol realizados en Espana y mostrar los marcadores correspondientes. La fuente de los datos sera la pagina web <a href="http://www.marcadoresonline.com/futbol/espa%C3%B1a/primeradivision" > Marcadores.com </a> (La utilizacion de  estos datos es totalmente educativa y no prentende uso comercial). Para la toma de los datos y injeccion de los mismo se utilizan herramientas como Retrofit y Dagger. Para manejar los iconos que representan los Escudos de los equipos se implementa Picasso estas imagenes necesitan ser tratadas para usarla en nuestra aplicacion. La aplicacion original solo muestra los resultados para Espana y la liga 1. Su unica funcionalidad es mostrar estos datos en forma de una lista de marcados y la bandera del pais al que pertenecen la siguiente imagen muestra como se ve la aplicacion en el emulador Genymotion.
+La funcion del proyecto Futbol es algo simple, pero con una gran muestra de conceptos con herramientas que son muy utiles en el desarrollo de aplicaciones android. El objetivo del APP es tomar los datos relacionados con los partidos de futbol realizados en Espana y mostrar los marcadores correspondientes. La fuente de los datos sera la pagina web <a href="http://www.marcadoresonline.com/futbol/espa%C3%B1a/primeradivision" > Marcadores.com </a> (La utilizacion de  estos datos es totalmente educativa y no prentende uso comercial). Para la toma de los datos y injeccion de los mismo se utilizan herramientas como Retrofit y Dagger. Para manejar los iconos que representan los Escudos de los equipos se implementa Picasso estas imagenes necesitan ser tratadas para usarla en nuestra aplicacion. La aplicacion original solo muestra los resultados para Espana y la liga 1. Su unica funcionalidad es mostrar estos datos en forma de una lista de marcados y la bandera del pais al que pertenecen la siguiente imagen muestra como se ve la aplicacion en el emulador Genymotion.
 
 <img src="https://github.com/difo23/GymLR/blob/master/app/src/main/res/drawable/original.png?raw=true">
+
+<h4>Informacion y consulta sobre MVP, la cual fue necesaria para entender el proyecto Futbol:</h4>
+<ul>
+<li><a href="http://magenic.com/Blog/Post/6/An-MVP-Pattern-for-Android">MVP Magenic</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter"> Wikipedia MVP </a></li>
+<li><a href="http://droidumm.blogspot.com.es/2011/11/concept-model-view-present-mvp-pattern.html"> MVP Droidumm</a></li>
+</ul>
+
+<img src="http://upload.wikimedia.org/wikipedia/commons/d/dc/Model_View_Presenter_GUI_Design_Pattern.png">
+
+<h4>Informacion y consulta sobre Retrofit, la cual fue necesaria para entender el proyecto Futbol:</h4>
+<ul>
+<li><a href="http://androidrx.blogspot.com.es/">REST in android with retrofit and rxjava</a></li>
+<li><a href="http://square.github.io/retrofit/"> A type-safe REST client for Android and Java </a></li>
+<li><a href="https://github.com/square/retrofit"> Retrofit GitHub</a></li>
+</ul>
+
+<h4>Informacion y consulta sobre Dagger, la cual fue necesaria para entender el proyecto Futbol:</h4>
+<ul>
+<li><a href="http://square.github.io/dagger/">Dagger square</a></li>
+<li><a href="http://xurxodeveloper.blogspot.com.es/2014/11/inyeccion-de-dependencias-en-android-con-dagger.html"> Inyección de dependencias en Android con Dagger </a></li>
+<li><a href="http://es.slideshare.net/PedroVicenteGmezSnch/dependency-injection-on-android-spanish"> Dagger Docs</a></li>
+</ul>
+
+<h4>Informacion y consulta sobre Picasso, la cual fue necesaria para entender el proyecto Futbol:</h4>
+<ul>
+<li><a href="https://github.com/square/picasso">Picasso GitHub</a></li>
+<li><a href="http://square.github.io/picasso/"> Picasso Square </a></li>
+<li><a href="http://desarrollador-android.com/librerias/square/picasso/"> Ejemplos Picasso</a></li>
+</ul>
+
+<img src="http://square.github.io/picasso/static/sample.png">
+
 
 <h4>Descripcion de funcionalidades APP GymRL y modificaciones realizadas a APP Futbol:</h4>
 
@@ -73,37 +102,12 @@ Para modificar la aplicacion a que presente mas resultados y distintas ligas se 
 <h3>Internacional</h3>
 <img src="https://github.com/difo23/GymLR/blob/master/app/src/main/res/drawable/international.png?raw=true">
 
-<h4>Informacion y consulta sobre MVP, la cual fue necesaria para entender el proyecto Futbol:</h4>
-<ul>
-<li><a href="http://magenic.com/Blog/Post/6/An-MVP-Pattern-for-Android">MVP Magenic</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter"> Wikipedia MVP </a></li>
-<li><a href="http://droidumm.blogspot.com.es/2011/11/concept-model-view-present-mvp-pattern.html"> MVP Droidumm</a></li>
-</ul>
 
-<img src="http://upload.wikimedia.org/wikipedia/commons/d/dc/Model_View_Presenter_GUI_Design_Pattern.png">
+# Conclusion:
 
-<h4>Informacion y consulta sobre Retrofit, la cual fue necesaria para entender el proyecto Futbol:</h4>
-<ul>
-<li><a href="http://androidrx.blogspot.com.es/">REST in android with retrofit and rxjava</a></li>
-<li><a href="http://square.github.io/retrofit/"> A type-safe REST client for Android and Java </a></li>
-<li><a href="https://github.com/square/retrofit"> Retrofit GitHub</a></li>
-</ul>
+El desarrollo de una aplicacion Android desde 0 incluye muchos conceptos basicos que para un novato en el creacion de aplicaciones para SmartPhone pueden resultar en un dolor de cabeza, problemas como la seleccion del API correcto y la puesta en marcha de los emuladores, el IDE y carga de aplicaciones directas al movil pueden ser en primer paso complicadas. Esta aplicacion Futbol introduce conceptos totalmente nuevos y da por sentado bases para el desarrollo de aplicaciones para android como la manera de interactuar de una activity con otra o la declaracion de permisos en el manifiesto. En resumen es un buen ejemplo para introducir las heramientas de MVP, Retrofit, Picasso y Dagger un ejemplo claro para un curso de nivel medio-avanzado en aplicaciones para OS Android. Dado la velocidad con que fue impartido el curso y la variedad de temas tocados en distintos OS tomar como punto de interes esta aplicacion para concretar los conocimientos adquiridos en clases, la selecion del OS Android y no otro sistema tocado en el curso se debe al alto contenido practico mostrado en el tema Android y los bajos costes de desarrollo que provee el OS.
 
-<h4>Informacion y consulta sobre Dagger, la cual fue necesaria para entender el proyecto Futbol:</h4>
-<ul>
-<li><a href="http://square.github.io/dagger/">Dagger square</a></li>
-<li><a href="http://xurxodeveloper.blogspot.com.es/2014/11/inyeccion-de-dependencias-en-android-con-dagger.html"> Inyección de dependencias en Android con Dagger </a></li>
-<li><a href="http://es.slideshare.net/PedroVicenteGmezSnch/dependency-injection-on-android-spanish"> Dagger Docs</a></li>
-</ul>
 
-<h4>Informacion y consulta sobre Picasso, la cual fue necesaria para entender el proyecto Futbol:</h4>
-<ul>
-<li><a href="https://github.com/square/picasso">Picasso GitHub</a></li>
-<li><a href="http://square.github.io/picasso/"> Picasso Square </a></li>
-<li><a href="http://desarrollador-android.com/librerias/square/picasso/"> Ejemplos Picasso</a></li>
-</ul>
-
-<img src="http://square.github.io/picasso/static/sample.png">
 
 
 
