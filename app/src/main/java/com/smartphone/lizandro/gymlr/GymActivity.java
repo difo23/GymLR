@@ -78,7 +78,7 @@ public class GymActivity extends InjectedActivity implements IDashboardView {
     public void load_Partidos() {
         refreshHeader = 0;
         datos.clear();
-        pd =  ProgressDialog.show(this, "Loading...","Connecting to server.", true);
+        pd =  ProgressDialog.show(this, "Hackeando servidores de la NASA...","Conectando a Curiosity .", true);
         presenter.loadPartidos();
     }
 
@@ -92,7 +92,7 @@ public class GymActivity extends InjectedActivity implements IDashboardView {
             refreshlHeader(partido);
         } else {
             refreshHeader = 0;
-            Toast.makeText(this, "Error conexion datos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Error conexion datos somos rastreados por la NASA", Toast.LENGTH_SHORT).show();
         }
         adapter.notifyDataSetChanged();
         pd.dismiss();
