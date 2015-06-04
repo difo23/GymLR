@@ -5,7 +5,7 @@ import com.smartphone.lizandro.gymlr.mvp.presenter.DashboardPresenter;
 
 
 public interface IDashboardView {
-    public void load_Partidos();
+    public void load_Partidos(int id);
 
     void refreshUI(Partido partido);
 }

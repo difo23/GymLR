@@ -26,7 +26,7 @@ public class MiSimpleAdapter extends SimpleAdapter {
         //super.setViewImage(v, value);
         Picasso.with(context)
                 .load(value)
-                .resize(50, 50)
+                .resize(25, 25)
                 .into(v);
     }
 }

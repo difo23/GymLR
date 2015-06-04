@@ -34,8 +34,9 @@ public class DashboardPresenter {
         this.view = dashboardView;
     }
 
-    public void loadPartidos() {
-        loadPartidoLiga(87);
+    public void loadPartidos(int id) {
+        loadPartidoLiga(id);
+        //loadPartidoLiga(87);
         //loadPartidoLiga(140);
     }
 
